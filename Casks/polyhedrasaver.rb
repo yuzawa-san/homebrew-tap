@@ -1,6 +1,6 @@
 cask 'polyhedrasaver' do
-  version '2.1.2'
-  sha256 'c42ed3a2738820ad2248c54fd42e802f034e443ffe6a4bb282391186992c0600'
+  version '2.1.3'
+  sha256 'e94ba61c85f39caf365b29b16e7f6d556a0a17b7c8b3fb4024f276b077866206'
 
   url "https://github.com/yuzawa-san/PolyhedraSaver/releases/download/v#{version}/Polyhedra.saver.zip"
   appcast 'https://github.com/yuzawa-san/PolyhedraSaver/releases.atom'
