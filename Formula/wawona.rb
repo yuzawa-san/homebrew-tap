@@ -1,11 +1,11 @@
 class Wawona < Formula
   include Language::Python::Virtualenv
 
-  version "0.0.2"
+  version "1.0.0"
   desc "Easily make office reservations in sequoia from the command line."
   homepage "https://github.com/yuzawa-san/wawona"
-  url "https://files.pythonhosted.org/packages/e0/a6/bc409e782ed3a1e84f37666ec281051f2d5776676307ea77989699aed29b/wawona-0.0.2.tar.gz"
-  sha256 "4cdec969ecf03bc18e9ea14abfff8c6be0433cdbec6456deb3e7274ddd7e00ee"
+  url "https://files.pythonhosted.org/packages/8e/86/5636cb3f4b47cc8e7e49d9064edf057a9e669b3cb39f43ae94e9e6ead47a/wawona-1.0.0.tar.gz"
+  sha256 "575e8baaca599f842f1226670ee56d4b20b8682b3b2365ba701fa67c152316f7"
 
   depends_on "python3"
 
@@ -52,6 +52,11 @@ class Wawona < Formula
   resource "more-itertools" do
     url "https://files.pythonhosted.org/packages/df/ad/7905a7fd46ffb61d976133a4f47799388209e73cbc8c1253593335da88b4/more-itertools-10.2.0.tar.gz"
     sha256 "8fccb480c43d3e99a00087634c06dd02b0d50fbf088b380de5a41a015ec239e1"
+  end
+
+  resource "pytz" do
+    url "https://files.pythonhosted.org/packages/90/26/9f1f00a5d021fff16dee3de13d43e5e978f3d58928e129c3a62cf7eb9738/pytz-2024.1.tar.gz"
+    sha256 "2a29735ea9c18baf14b448846bde5a48030ed267578472d8955cd0e7443a9812"
   end
 
   resource "readchar" do
