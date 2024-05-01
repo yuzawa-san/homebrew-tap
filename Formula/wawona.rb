@@ -1,11 +1,11 @@
 class Wawona < Formula
   include Language::Python::Virtualenv
 
-  version "1.1.1"
+  version "1.1.2"
   desc "Easily make office reservations in sequoia from the command line."
   homepage "https://github.com/yuzawa-san/wawona"
-  url "https://files.pythonhosted.org/packages/be/c7/e639bad35193246df28e4c5b30fd44bd13c0f2c37e61f39215e026664bd2/wawona-1.1.1.tar.gz"
-  sha256 "a44705ce52104b257a3ed12bd5daf83ed5861c866a324174e40700b71919cc41"
+  url "https://files.pythonhosted.org/packages/37/31/3db8385d6fbd13c90444fbbd5d4eeb2a5b742f81bf81a34f8ac63e79577a/wawona-1.1.2.tar.gz"
+  sha256 "9c29986aacb42f9705deef933ffcc13b7a9ea489c78055c68b3a9569e0790133"
 
   depends_on "python3"
 
