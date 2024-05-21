@@ -1,11 +1,11 @@
 class Wawona < Formula
   include Language::Python::Virtualenv
 
-  version "1.2.0"
+  version "1.2.2"
   desc "Easily make office reservations in sequoia from the command line."
   homepage "https://github.com/yuzawa-san/wawona"
-  url "https://files.pythonhosted.org/packages/67/c1/c83aeea4984217f2dd1918065043ff53f4354bb6e7dfbab17c1321b04de6/wawona-1.2.0.tar.gz"
-  sha256 "63bb1fc3301e6b67044efae4ecf0ce25394101191741a52b9771e23603164c0f"
+  url "https://files.pythonhosted.org/packages/22/b3/6fe45aff46a6ffebbd68f9a9721b32c31cf7edfafe59a8c7f11917db30e0/wawona-1.2.2.tar.gz"
+  sha256 "d640dd30f58181a25f2f29b9b6b59b5f655c52d32d26b8263eafaf4bd90a6feb"
 
   depends_on "python3"
 
@@ -79,9 +79,19 @@ class Wawona < Formula
     sha256 "9dcf02e65f2971b80047b377468e72a268e15c0af3cf1238e6ff14f7f91143b8"
   end
 
+  resource "packaging" do
+    url "https://files.pythonhosted.org/packages/ee/b5/b43a27ac7472e1818c4bafd44430e69605baefe1f34440593e0332ec8b4d/packaging-24.0.tar.gz"
+    sha256 "eb82c5e3e56209074766e6885bb04b8c38a0c015d0a30036ebe7ece34c9989e9"
+  end
+
   resource "PySocks" do
     url "https://files.pythonhosted.org/packages/bd/11/293dd436aea955d45fc4e8a35b6ae7270f5b8e00b53cf6c024c83b657a11/PySocks-1.7.1.tar.gz"
     sha256 "3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0"
+  end
+
+  resource "python-dotenv" do
+    url "https://files.pythonhosted.org/packages/bc/57/e84d88dfe0aec03b7a2d4327012c1627ab5f03652216c63d49846d7a6c58/python-dotenv-1.0.1.tar.gz"
+    sha256 "e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca"
   end
 
   resource "pytz" do
@@ -152,6 +162,11 @@ class Wawona < Formula
   resource "wcwidth" do
     url "https://files.pythonhosted.org/packages/6c/63/53559446a878410fc5a5974feb13d31d78d752eb18aeba59c7fef1af7598/wcwidth-0.2.13.tar.gz"
     sha256 "72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"
+  end
+
+  resource "webdriver-manager" do
+    url "https://files.pythonhosted.org/packages/e5/50/2958aa25647e86334b30b4f8c819cc4fd5f15d3d0115042a4c924ec6e94d/webdriver_manager-4.0.1.tar.gz"
+    sha256 "25ec177c6a2ce9c02fb8046f1b2732701a9418d6a977967bb065d840a3175d87"
   end
 
   resource "wsproto" do
