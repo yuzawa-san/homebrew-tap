@@ -1,11 +1,11 @@
 class Wawona < Formula
   include Language::Python::Virtualenv
 
-  version "1.2.3"
+  version "1.2.4"
   desc "Easily make office reservations in sequoia from the command line."
   homepage "https://github.com/yuzawa-san/wawona"
-  url "https://files.pythonhosted.org/packages/39/73/6233cc3b5dcd9839cb43cbe965c7677b55821f438ff42fd76400138b2a2e/wawona-1.2.3.tar.gz"
-  sha256 "16c303b09d3dee6fa0249191f6e5ec8d656187aa29c8bda8ad74f2e7d2a3d44f"
+  url "https://files.pythonhosted.org/packages/71/91/b63a03f39282229c04fe7f4172e7b5dfde8529f1d0c6716cab0bb452279a/wawona-1.2.4.tar.gz"
+  sha256 "f8e36e59b188028668e317ee9099358255aa205e0c70fc3e6c7d295562db9a91"
 
   depends_on "python3"
 
@@ -45,8 +45,8 @@ class Wawona < Formula
   end
 
   resource "inquirer" do
-    url "https://files.pythonhosted.org/packages/03/eb/b631f7ed6156717cd5bd9abc8c9df809fe128a389a0377274f2d6cb102db/inquirer-3.2.4.tar.gz"
-    sha256 "33b09efc1b742b9d687b540296a8b6a3f773399673321fcc2ab0eb4c109bf9b5"
+    url "https://files.pythonhosted.org/packages/f2/33/d495a92c48203f33d2f4556a0a662dab1bd511a7458910c866f1d7a6a1a3/inquirer-3.3.0.tar.gz"
+    sha256 "2722cec4460b289aab21fc35a3b03c932780ff4e8004163955a8215e20cfd35e"
   end
 
   resource "outcome" do
@@ -80,8 +80,8 @@ class Wawona < Formula
   end
 
   resource "selenium" do
-    url "https://files.pythonhosted.org/packages/04/93/fe0473c381dddce4db9527cf442d5949460fab4a92713fb5984386054323/selenium-4.22.0.tar.gz"
-    sha256 "903c8c9d61b3eea6fcc9809dc7d9377e04e2ac87709876542cc8f863e482c4ce"
+    url "https://files.pythonhosted.org/packages/ab/38/f511decb16f49aba250bbe73185834fea170e1a59d4403ee881c7f0ac7df/selenium-4.23.1.tar.gz"
+    sha256 "128d099e66284437e7128d2279176ec7a06e6ec7426e167f5d34987166bd8f46"
   end
 
   resource "six" do
