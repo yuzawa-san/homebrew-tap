@@ -80,8 +80,8 @@ class Wawona < Formula
   end
 
   resource "selenium" do
-    url "https://files.pythonhosted.org/packages/ab/38/f511decb16f49aba250bbe73185834fea170e1a59d4403ee881c7f0ac7df/selenium-4.23.1.tar.gz"
-    sha256 "128d099e66284437e7128d2279176ec7a06e6ec7426e167f5d34987166bd8f46"
+    url "https://files.pythonhosted.org/packages/c9/33/b9da8be5b122b8c3c82c35f515ba0a84a9af3ba9629ae9fd5bbba820d592/selenium-4.23.1-py3-none-any.whl"
+    sha256 "3a8d9f23dc636bd3840dd56f00c2739e32ec0c1e34a821dd553e15babef24477"
   end
 
   resource "six" do
